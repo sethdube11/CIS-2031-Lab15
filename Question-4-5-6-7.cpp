@@ -18,7 +18,16 @@ void print(vector<string> v) {
 
 //❓❓ Question 7:
 // Put your new print function here:
-
+void print(vector<int> v) {
+    if (v.empty()) {
+        cout << "[empty]";
+    } else {
+        for (int s : v) {
+            cout << s << " ";
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     //Same code from the last file
